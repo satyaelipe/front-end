@@ -18,8 +18,7 @@ pipeline{ /* +develop branch */
         }
     }
 
-
-    stage('Test'){
+    /* stage('Test'){
       when {
                 branch 'release'
             }
@@ -31,7 +30,7 @@ pipeline{ /* +develop branch */
           }
 
           }
-    }
+    } */
 
     stage('Push it to Docker Hub'){
       when {
