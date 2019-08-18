@@ -5,7 +5,6 @@ pipeline{ /* +develop branch */
   stages{
     stage('SCM Checkout'){
       steps{
-      #git "/Users/selipe/my_home/git/hellonode"
       git git@github.com:satyaelipe/front-end.git
       }
     }
