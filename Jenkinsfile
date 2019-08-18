@@ -33,9 +33,9 @@ pipeline{ /* +develop branch */
     } */
 
     stage('Push it to Docker Hub'){
-      when {
+      /*when {
               branch 'master'
-          }
+          } */
           steps{
            script{
            println "from push"
